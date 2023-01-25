@@ -1,0 +1,11 @@
+CREATE TABLE `t_user1` (
+  `id` bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(10) NOT NULL,
+  `value` VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE `t_user2` (
+  `id` bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(10) NOT NULL,
+  `value` VARCHAR(10) NOT NULL
+);
